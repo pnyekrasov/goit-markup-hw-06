@@ -385,18 +385,17 @@
             <div class="footer-send">
                 <p class="footer-ikon-title">
                     Subscribe</p>
-                <div class="footer-send-box">
-                    <label>
-                        <span class="send-wrap">
-                            <input class="send-input" name="user-name" type="text" placeholder="E-mail" />
-                        </span>
+                <form class="footer-send-box">
+                    <label class="send-wrap">
+                        <input class="send-input" name="user-name" type="text" placeholder="E-mail" />
+
                     </label>
-                    <button class="footer-btn" type="submit">Subscribe<svg width="24" height="24">
-                            <use class="footer-ikon" href="./images/ikons.svg#icon-airplane"></use>
+                    <button class="footer-btn" type="submit">Subscribe<svg class="footer-ikon" width="24" height="24">
+                            <use href="./images/ikons.svg#icon-airplane"></use>
                         </svg></button>
-                    </di>
-                </div>
+                </form>
             </div>
+        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -435,7 +434,7 @@
                     </span>
                 </label>
                 <div class="modal-field">
-                    <label class="modal-subtitle" for="user-tel">Comment</label>
+                    <label class="modal-subtitle" for="user-text">Comment</label>
                     <textarea class="modal-textarea" id="user-text" name="user-text"
                         placeholder="Text input"></textarea>
                 </div>
@@ -449,7 +448,7 @@
                                 </use>
                             </svg>
                         </span>
-                        I accept the terms and conditions of the<a class="check-text-input" href="#">&nbspPrivacy
+                        I accept the terms and conditions of the<a class="check-text-input" href="#">Privacy
                             Policy</a>
                     </label>
                 </div>
